@@ -11,6 +11,15 @@ const HeaderDiv = styled.div`
   color: black;
 `;
 
+const Typed = styled.div`
+  text-align: center;
+  color: black;
+  @media (max-width: 600px)
+  {
+      font-size: 12px;
+  }
+`;
+
 const ProfileImg = styled.img`
   width: 12em;
   height: 12em;
@@ -75,11 +84,11 @@ const Header = (props) => {
                     <ProfileImg src={require("../assets/images/santu.jpeg")} alt="DP"/> 
                     <CenteredHeader>
                     <Typing>
-                        <div>
+                        <Typed>
                             Hi! I am Neela Santosh Kumar, &nbsp;
                         <Typing.Delay count={1} loop ms={1000} />
                             React JS Developer    
-                        </div>
+                        </Typed>
                     </Typing>
                     </CenteredHeader>
                 </Link>
