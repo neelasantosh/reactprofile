@@ -6,7 +6,7 @@ function About(){
         <div>
             <CenteredHeader>About</CenteredHeader>
             <div>
-                <Centered>Hi! I'm Neela Santosh Kumar. I'm a Senior Associate Consultant at Infosys </Centered>
+                <Centered>Hi! I'm Neela Santosh Kumar. I'm a Senior Associate Consultant at Infosys Ltd </Centered>
                 <Content>
                     I have 4+ years of experience on React JS and 1 year experience on React Native, Node Js, Express and MongoDB.
                     I am self learner and motivated person. I can work on web related stuff alone or 

@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import Typing from 'react-typing-animation';
 import styled from 'styled-components';
+import CLOUDS from 'vanta/dist/vanta.clouds.min'
 import { Link } from 'react-router-dom';
 import Nav from './nav';
 
@@ -54,21 +56,52 @@ export const Content = styled.div`
     font-weight: 500;
     color: #648b98
 `
-
-
-function Header() {
-
-    return(
+const Header = (props) => {
+    const [vantaEffect, setVantaEffect] = useState(0)
+    const myRef = useRef(null)
+    useEffect(() => {
+      if (!vantaEffect) {
+        setVantaEffect(CLOUDS({
+          el: myRef.current
+        }))
+      }
+      return () => {
+        if (vantaEffect) vantaEffect.destroy()
+      }
+    }, [vantaEffect])
+    return (<div  ref={myRef}>
             <HeaderDiv>
                 <Link to='/'>
                     <ProfileImg src={require("../assets/images/santu.jpeg")} alt="DP"/> 
                     <CenteredHeader>
-                        Santosh Kumar
+                    <Typing>
+                        <div>
+                            Hi! I am Neela Santosh Kumar, &nbsp;
+                        <Typing.Delay count={1} loop ms={1000} />
+                            React JS Developer    
+                        </div>
+                    </Typing>
                     </CenteredHeader>
                 </Link>
                 <Nav />      
             </HeaderDiv>
-    );
-}
+    </div>)
+  }
+  
+
+// function Header() {
+
+//     return(
+//             <HeaderDiv>
+//                 <Link to='/'>
+//                     <ProfileImg src={require("../assets/images/santu.jpeg")} alt="DP"/> 
+//                     <CenteredHeader>
+//                         Santosh Kumar
+//                     </CenteredHeader>
+//                 </Link>
+//                 <Nav />      
+//             </HeaderDiv>
+//     );
+// }
 
 export default Header

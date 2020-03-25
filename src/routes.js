@@ -12,7 +12,6 @@ const Main = () => (
     <main>
         <Header />
         <ContainerDiv>
-            <hr />
         <Switch>
             <Route exact path='/' component={About} />
             <Route exact path='/about' component={About} />
