@@ -2,7 +2,7 @@
   "name": "sanpro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://neelasantosh.github.io/santoshprofile/",
+  "homepage": "https://neelasantosh.github.io/reactprofile/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
