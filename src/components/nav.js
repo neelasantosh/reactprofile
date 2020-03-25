@@ -13,9 +13,9 @@ const NavBarLink = styled(Link)`
 function Nav(){
   return(
     <div>
-      <NavBarLink to='/reactprofile/about'> About </NavBarLink>
-      <NavBarLink to='/reactprofile/skills'> Skills </NavBarLink>
-      <NavBarLink to='/reactprofile/contact'> Contact </NavBarLink>
+      <NavBarLink to='/about'> About </NavBarLink>
+      <NavBarLink to='/skills'> Skills </NavBarLink>
+      <NavBarLink to='/contact'> Contact </NavBarLink>
     </div>
   )
 }

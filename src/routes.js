@@ -13,11 +13,10 @@ const Main = () => (
         <Header />
         <ContainerDiv>
         <Switch>
-            <Route exact path='/reactprofile/' component={About} />
-            <Route exact path='/reactprofile/about' component={About} />
-            <Route exact path='/reactprofile/skills' component={Skills} />
-            <Route exact path='/reactprofile/contact' component={ContactUs} />
-            <Route path='/reactprofile/*' component={About} />    
+            <Route exact path='/' component={About} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/skills' component={Skills} />
+            <Route exact path='/contact' component={ContactUs} />
             <Route path='*' component={About} />    
         </Switch>
         </ContainerDiv>
