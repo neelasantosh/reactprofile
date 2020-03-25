@@ -71,7 +71,7 @@ const Header = (props) => {
     }, [vantaEffect])
     return (<div  ref={myRef}>
             <HeaderDiv>
-                <Link to='/'>
+                <Link to='/reactprofile'>
                     <ProfileImg src={require("../assets/images/santu.jpeg")} alt="DP"/> 
                     <CenteredHeader>
                     <Typing>

@@ -16,7 +16,8 @@ const Main = () => (
             <Route exact path='/reactprofile/' component={About} />
             <Route exact path='/reactprofile/about' component={About} />
             <Route exact path='/reactprofile/skills' component={Skills} />
-            <Route exact path='/reactprofile/contactus' component={ContactUs} />    
+            <Route exact path='/reactprofile/contact' component={ContactUs} />
+            <Route path='*' component={About} />    
         </Switch>
         </ContainerDiv>
         <Footer />
