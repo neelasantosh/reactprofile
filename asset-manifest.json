@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/themoviedb/static/css/main.f0bc0805.chunk.css",
-    "main.js": "/themoviedb/static/js/main.a8c1f707.chunk.js",
-    "main.js.map": "/themoviedb/static/js/main.a8c1f707.chunk.js.map",
-    "runtime-main.js": "/themoviedb/static/js/runtime-main.a9251a69.js",
-    "runtime-main.js.map": "/themoviedb/static/js/runtime-main.a9251a69.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/themoviedb/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.726fd933.chunk.js": "/themoviedb/static/js/2.726fd933.chunk.js",
-    "static/js/2.726fd933.chunk.js.map": "/themoviedb/static/js/2.726fd933.chunk.js.map",
-    "index.html": "/themoviedb/index.html",
-    "precache-manifest.f615cc9b00a7081d43b3bb0b5f2e5c2a.js": "/themoviedb/precache-manifest.f615cc9b00a7081d43b3bb0b5f2e5c2a.js",
-    "service-worker.js": "/themoviedb/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/themoviedb/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.f0bc0805.chunk.css.map": "/themoviedb/static/css/main.f0bc0805.chunk.css.map",
-    "static/js/2.726fd933.chunk.js.LICENSE.txt": "/themoviedb/static/js/2.726fd933.chunk.js.LICENSE.txt",
-    "static/media/santu.jpeg": "/themoviedb/static/media/santu.a3ef6983.jpeg"
+    "main.css": "/santoshprofile/static/css/main.f0bc0805.chunk.css",
+    "main.js": "/santoshprofile/static/js/main.6d2a3d95.chunk.js",
+    "main.js.map": "/santoshprofile/static/js/main.6d2a3d95.chunk.js.map",
+    "runtime-main.js": "/santoshprofile/static/js/runtime-main.7d2d419f.js",
+    "runtime-main.js.map": "/santoshprofile/static/js/runtime-main.7d2d419f.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/santoshprofile/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.eb26123d.chunk.js": "/santoshprofile/static/js/2.eb26123d.chunk.js",
+    "static/js/2.eb26123d.chunk.js.map": "/santoshprofile/static/js/2.eb26123d.chunk.js.map",
+    "index.html": "/santoshprofile/index.html",
+    "precache-manifest.9389db177455675eb7ae2b6d9c1336b4.js": "/santoshprofile/precache-manifest.9389db177455675eb7ae2b6d9c1336b4.js",
+    "service-worker.js": "/santoshprofile/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/santoshprofile/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.f0bc0805.chunk.css.map": "/santoshprofile/static/css/main.f0bc0805.chunk.css.map",
+    "static/js/2.eb26123d.chunk.js.LICENSE.txt": "/santoshprofile/static/js/2.eb26123d.chunk.js.LICENSE.txt",
+    "static/media/santu.jpeg": "/santoshprofile/static/media/santu.a3ef6983.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9251a69.js",
+    "static/js/runtime-main.7d2d419f.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.726fd933.chunk.js",
+    "static/js/2.eb26123d.chunk.js",
     "static/css/main.f0bc0805.chunk.css",
-    "static/js/main.a8c1f707.chunk.js"
+    "static/js/main.6d2a3d95.chunk.js"
   ]
 }
